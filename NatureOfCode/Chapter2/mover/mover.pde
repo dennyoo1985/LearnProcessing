@@ -59,7 +59,7 @@ class Mover {
 }
 
 // create 100 mover objects using an array
-Mover[] movers = new Mover[100];
+Mover[] movers = new Mover[3];
 
 // initialize Mover object with a loop
 void setup() {
