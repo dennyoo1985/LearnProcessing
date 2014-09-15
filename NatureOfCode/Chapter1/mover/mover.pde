@@ -1,6 +1,4 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
+// dennyoo1985 added my own changes
 
 class Mover {
 
