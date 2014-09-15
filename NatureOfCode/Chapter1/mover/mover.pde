@@ -14,6 +14,8 @@ class Mover {
     mass = 1;
   }
   
+  // apply forces such as wind or gravity
+  // Newtons second law
   void applyForce(PVector force) {
     PVector f = PVector.div(force,mass);
     acceleration.add(f);
