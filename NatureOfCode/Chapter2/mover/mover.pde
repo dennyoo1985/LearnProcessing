@@ -59,7 +59,7 @@ class Mover {
 }
 
 // create 100 mover objects using an array
-Mover[] movers = new Mover[3];
+Mover[] movers = new Mover[1000];
 
 // initialize Mover object with a loop
 void setup() {
@@ -71,10 +71,10 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(255, 204, 0);
   
-  PVector wind = new PVector(0.01,0);
-  PVector gravity = new PVector(0, 0.1);
+  PVector wind = new PVector(0.4,0);
+  PVector gravity = new PVector(0, 0.5);
   
   for (int i = 0; i < movers.length; i++) {
     movers[i].applyForce(wind);
